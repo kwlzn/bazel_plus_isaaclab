@@ -30,7 +30,7 @@ py_binary(
     env = {
         "OMNI_KIT_ACCEPT_EULA": "YES",
     },
-    package_collisions = "ignore",
+    package_collisions = "warning",
     deps = ISAACLAB_DEPS,
 )
 
@@ -40,6 +40,6 @@ py_test(
     env = {
         "OMNI_KIT_ACCEPT_EULA": "YES",
     },
-    package_collisions = "ignore",
+    package_collisions = "warning",
     deps = ISAACLAB_DEPS,
 )
