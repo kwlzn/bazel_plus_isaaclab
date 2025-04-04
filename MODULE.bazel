@@ -1,0 +1,26 @@
+module()
+
+PYTHON_VERSION = "3.10"
+
+bazel_dep(name = "aspect_rules_py", version = "1.3.2")
+bazel_dep(name = "rules_python", version = "0.38.0")
+
+python = use_extension("@rules_python//python/extensions:python.bzl", "python")
+python.toolchain(
+    is_default = True,
+    python_version = PYTHON_VERSION,
+)
+
+pip_isaac = use_extension("@rules_python//python/extensions:pip.bzl", "pip")
+pip_isaac.parse(
+    extra_pip_args = [
+        "--extra-index-url=https://download.pytorch.org/whl/cu121",
+        "--extra-index-url=https://pypi.nvidia.com",
+    ],
+    hub_name = "pypi_isaac",
+    python_version = PYTHON_VERSION,
+    requirements_lock = "requirements.txt.lock",
+    # Exclude bazel-incompatible test files.
+    pip_data_exclude = ["**/tests/**"],
+)
+use_repo(pip_isaac, "pypi_isaac")

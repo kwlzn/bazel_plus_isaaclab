@@ -1,0 +1,6 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+
+--extra-index-url https://pypi.nvidia.com
+isaacsim[rl,extscache]==4.5.0
+isaaclab[isaacsim,all]==2.0.2
