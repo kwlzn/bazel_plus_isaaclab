@@ -1,4 +1,4 @@
-load("@aspect_rules_py//py:defs.bzl", "py_binary", "py_test")
+load("@rules_python//python:defs.bzl", "py_binary", "py_test")
 
 # This rule modifies the source tree directly (requirements.txt.lock) and
 # assumes 'uv' is available (via `pip install uv`) on the $PATH when run.
@@ -30,7 +30,6 @@ py_binary(
     env = {
         "OMNI_KIT_ACCEPT_EULA": "YES",
     },
-    package_collisions = "warning",
     deps = ISAACLAB_DEPS,
 )
 
@@ -40,6 +39,5 @@ py_test(
     env = {
         "OMNI_KIT_ACCEPT_EULA": "YES",
     },
-    package_collisions = "warning",
     deps = ISAACLAB_DEPS,
 )
