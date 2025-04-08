@@ -255,7 +255,7 @@
     "@@rules_python~//python/extensions:pip.bzl%pip": {
       "general": {
         "bzlTransitiveDigest": "6oK3rpk/09ipsXKndDV/loNQ6pIQIuOHkxN1+JKnrNM=",
-        "usagesDigest": "JhvdhyEUWTK2eKLnJVqwiohnGmza/JS3uCXVjKbXiEc=",
+        "usagesDigest": "3ePHUd4Upg3NU4cyUIqmBRn5s0uLa7FNKbhd87BT4qg=",
         "recordedFileInputs": {
           "@@rules_python~//tools/publish/requirements_linux.txt": "d576e0d8542df61396a9b38deeaa183c24135ed5e8e73bb9622f298f2671811e",
           "@@//requirements.txt.lock": "0646aee628aaa51e3638c2b369fbc285234d988b6cfce57e1c031a07c4bc3b85",
@@ -375,6 +375,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -392,6 +393,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -409,6 +411,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -426,6 +429,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -443,6 +447,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -460,6 +465,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -477,6 +483,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -494,6 +501,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -511,6 +519,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -528,6 +537,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -545,6 +555,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -562,6 +573,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -579,6 +591,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -596,6 +609,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -613,6 +627,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -630,6 +645,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -647,6 +663,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -664,6 +681,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -681,6 +699,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -698,6 +717,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -715,6 +735,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -732,6 +753,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -749,6 +771,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -766,6 +789,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -783,6 +807,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -800,6 +825,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -817,6 +843,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -834,6 +861,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -851,6 +879,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -868,6 +897,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -885,6 +915,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -902,6 +933,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -919,6 +951,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -936,6 +969,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -953,6 +987,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -970,6 +1005,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -987,6 +1023,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1004,6 +1041,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1021,6 +1059,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1038,6 +1077,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1055,6 +1095,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1072,6 +1113,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1089,6 +1131,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1106,6 +1149,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1123,6 +1167,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1140,6 +1185,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1157,6 +1203,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1174,6 +1221,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1191,6 +1239,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1208,6 +1257,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1225,6 +1275,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1242,6 +1293,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1259,6 +1311,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1276,6 +1329,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1293,6 +1347,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1310,6 +1365,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1327,6 +1383,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1344,6 +1401,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1361,6 +1419,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1378,6 +1437,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1395,6 +1455,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1412,6 +1473,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1429,6 +1491,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1446,6 +1509,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1463,6 +1527,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1480,6 +1545,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1497,6 +1563,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1514,6 +1581,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1531,6 +1599,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1548,6 +1617,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1565,6 +1635,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1582,6 +1653,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1599,6 +1671,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1616,6 +1689,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1633,6 +1707,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1650,6 +1725,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1667,6 +1743,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1684,6 +1761,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1701,6 +1779,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1718,6 +1797,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1735,6 +1815,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1752,6 +1833,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1769,6 +1851,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1786,6 +1869,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1803,6 +1887,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1820,6 +1905,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1837,6 +1923,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1854,6 +1941,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1871,6 +1959,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1888,6 +1977,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1905,6 +1995,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1922,6 +2013,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1939,6 +2031,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1956,6 +2049,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1973,6 +2067,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -1990,6 +2085,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2007,6 +2103,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2024,6 +2121,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2041,6 +2139,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2058,6 +2157,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2075,6 +2175,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2092,6 +2193,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2109,6 +2211,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2126,6 +2229,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2143,6 +2247,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2160,6 +2265,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2177,6 +2283,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2194,6 +2301,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2211,6 +2319,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2228,6 +2337,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2245,6 +2355,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2262,6 +2373,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2279,6 +2391,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2296,6 +2409,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2313,6 +2427,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2330,6 +2445,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2347,6 +2463,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2364,6 +2481,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2381,6 +2499,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2398,6 +2517,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2415,6 +2535,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2432,6 +2553,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2449,6 +2571,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2466,6 +2589,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2483,6 +2607,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2500,6 +2625,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2517,6 +2643,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2534,6 +2661,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2551,6 +2679,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2568,6 +2697,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2585,6 +2715,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2602,6 +2733,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2619,6 +2751,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"
@@ -2636,6 +2769,7 @@
             "ruleClassName": "whl_library",
             "attributes": {
               "dep_template": "@pypi_isaac//{name}:{target}",
+              "enable_implicit_namespace_pkgs": true,
               "extra_pip_args": [
                 "--extra-index-url=https://download.pytorch.org/whl/cu121",
                 "--extra-index-url=https://pypi.nvidia.com"

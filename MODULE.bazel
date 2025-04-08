@@ -21,5 +21,6 @@ pip_isaac.parse(
     requirements_lock = "requirements.txt.lock",
     # Exclude bazel-incompatible test files.
     pip_data_exclude = ["**/tests/**"],
+    enable_implicit_namespace_pkgs = True  # Fails with or without this
 )
 use_repo(pip_isaac, "pypi_isaac")

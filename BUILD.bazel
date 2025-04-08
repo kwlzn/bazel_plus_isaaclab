@@ -36,6 +36,7 @@ py_binary(
 py_test(
     name = "isaaclab_test",
     srcs = ["main.py"],
+    main = "main.py",
     env = {
         "OMNI_KIT_ACCEPT_EULA": "YES",
     },
