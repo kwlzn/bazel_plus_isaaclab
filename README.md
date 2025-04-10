@@ -8,13 +8,16 @@ Minimal reproduction of a Bazel + Isaac Lab integration.
 $ bazel run //:update_lock
 ```
 
-## Running a binary
+## Running the binary
 
 ```
 $ bazel run //:isaaclab_bin
+
+$ bazel run //:omni_bin
+
 ```
 
-## Running a test
+## Running the test
 
 ```
 $ bazel test //:isaaclab_test --test_output=all

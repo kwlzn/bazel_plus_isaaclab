@@ -9,6 +9,11 @@ sh_binary(
     data = ["requirements.txt"],
 )
 
+
+OMNI_DEPS = [
+    "@pypi_isaac//omniverse_kit",
+]
+
 ISAACLAB_DEPS = [
     "@pypi_isaac//isaaclab",
     "@pypi_isaac//isaacsim",
@@ -19,9 +24,8 @@ ISAACLAB_DEPS = [
     "@pypi_isaac//isaacsim_extscache_physics",
     "@pypi_isaac//isaacsim_gui",
     "@pypi_isaac//isaacsim_kernel",
-    "@pypi_isaac//omniverse_kit",
     "@pypi_isaac//torch",
-]
+] + OMNI_DEPS
 
 py_binary(
     name = "isaaclab_bin",
@@ -37,6 +41,17 @@ py_binary(
 py_test(
     name = "isaaclab_test",
     srcs = ["main.py"],
+    env = {
+        "OMNI_KIT_ACCEPT_EULA": "YES",
+    },
+    package_collisions = "warning",
+    deps = ISAACLAB_DEPS,
+)
+
+py_binary(
+    name = "omni_bin",
+    srcs = ["omni_main.py"],
+    main = "omni_main.py",
     env = {
         "OMNI_KIT_ACCEPT_EULA": "YES",
     },
