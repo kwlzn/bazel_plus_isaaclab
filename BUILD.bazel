@@ -1,4 +1,4 @@
-load("@aspect_rules_py//py:defs.bzl", "py_binary", "py_test")
+load("@rules_python//python:defs.bzl", "py_binary", "py_test")
 
 # This rule modifies the source tree directly (requirements.txt.lock) and
 # assumes 'uv' is available (via `pip install uv`) on the $PATH when run.
@@ -9,37 +9,25 @@ sh_binary(
     data = ["requirements.txt"],
 )
 
-ISAACLAB_DEPS = [
-    "@pypi_isaac//isaaclab",
-    "@pypi_isaac//isaacsim",
-    "@pypi_isaac//isaacsim_app",
-    "@pypi_isaac//isaacsim_core",
-    "@pypi_isaac//isaacsim_extscache_kit",
-    "@pypi_isaac//isaacsim_extscache_kit_sdk",
-    "@pypi_isaac//isaacsim_extscache_physics",
-    "@pypi_isaac//isaacsim_gui",
-    "@pypi_isaac//isaacsim_kernel",
-    "@pypi_isaac//omniverse_kit",
-    "@pypi_isaac//torch",
+OMNI_DEPS = [
+    "@pypi_omni//omniverse_kit",
 ]
 
 py_binary(
-    name = "isaaclab_bin",
+    name = "omni_bin",
     srcs = ["main.py"],
     main = "main.py",
     env = {
         "OMNI_KIT_ACCEPT_EULA": "YES",
     },
-    package_collisions = "warning",
-    deps = ISAACLAB_DEPS,
+    deps = OMNI_DEPS,
 )
 
 py_test(
-    name = "isaaclab_test",
+    name = "omni_test",
     srcs = ["main.py"],
     env = {
         "OMNI_KIT_ACCEPT_EULA": "YES",
     },
-    package_collisions = "warning",
-    deps = ISAACLAB_DEPS,
+    deps = OMNI_DEPS,
 )
