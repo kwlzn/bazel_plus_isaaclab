@@ -56,5 +56,5 @@ py_binary(
         "OMNI_KIT_ACCEPT_EULA": "YES",
     },
     package_collisions = "warning",
-    deps = ISAACLAB_DEPS,
+    deps = OMNI_DEPS,
 )
