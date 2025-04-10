@@ -3,4 +3,5 @@ try:
     from omni.kit_app import KitApp
 except ImportError:
     import carb
-    print(carb.__file__)
+    print(f"CARB IMPORT SUCCESSFUL: {carb.__file__})")
+    raise
